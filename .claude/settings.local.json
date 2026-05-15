@@ -3,7 +3,10 @@
     "allow": [
       "Bash(pip install:*)",
       "Bash(python -c ':*)",
-      "Bash(python -m pytest tests/ -m unit --no-header -q)"
+      "Bash(python -m pytest tests/ -m unit --no-header -q)",
+      "Bash(python -c \"import sys; print\\(sys.executable\\)\")",
+      "Bash(\"C:\\\\Users\\\\dalej\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python312\\\\python.exe\" -c \"from pychaos.db.models import Base, AIModelModel, PromptModel, WorkflowRunModel, TaskRunModel, ArtifactModel, TaskStatus, AIModelType; print\\('models OK'\\)\")",
+      "Bash('C:\\\\Users\\\\dalej\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python312\\\\python.exe' -c ' *)"
     ]
   }
 }
